@@ -40,6 +40,7 @@ void countCharacters( void ) {
     int character, totalOfCharacters = 0 ;
     while ( ( character =  getchar() ) != '<' ) {
         putchar( character ) ;
+        ++totalOfCharacters ;
     }
     printf( "Total of characters is %d", totalOfCharacters ) ;
 }
